@@ -1,0 +1,116 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and set text color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the chat container */
+  #chat {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the join form */
+  #joinForm {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  #joinForm input[type="text"] {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #joinButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the chat messages container */
+  #messages {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  #messages p {
+    margin: 5px 0;
+  }
+  
+  /* Style the message input and send button */
+  #messageInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #sendButton {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the online users list */
+  #userList {
+    float: right;
+    width: 30%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #userList h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #users {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #users li {
+    margin: 5px 0;
+  }
+  
